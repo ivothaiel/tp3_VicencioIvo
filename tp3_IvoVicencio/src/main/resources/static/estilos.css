@@ -4,16 +4,7 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;
-	 /* Agregar imagen de fondo */
-    background-image: url('https://img.freepik.com/fotos-premium/corredor-gente-joven-que-ejecuta-camino-corriente-parque-ciudad_41380-393.jpg?size=626&ext=jpg&ga=GA1.1.672697106.1715558400&semt=sph');
-    /* Establecer la imagen de fondo como fija para que no se desplace con el contenido */
-    background-attachment: fixed;
-    /* Centrar la imagen de fondo y hacerla cubrir todo el cuerpo */
-    background-position: center;
-    background-size: cover;
-    /* Fallback color en caso de que la imagen no se cargue */
-    background-color: #f0f0f0;
-	
+    
 	
 }
 
@@ -23,6 +14,34 @@ body{
 	padding: 20px;
 	text-align: center;
 	
+}
+#encabezadoo {
+	background-color: darkgreen;
+	color:azure;
+	padding: 20px;
+	text-align: center;
+	
+}
+
+.menu{
+	background-color: azure;
+	color: #45a049;
+	padding: 20px;
+	text-align: center;
+}
+
+#secciones{
+	background-color: darkslategrey;
+	color: azure;
+	padding: 20px;
+	text-align: center;
+}
+
+#bibliografia{
+	background-color: darkslategrey;
+	color: azure;
+	padding: 20px;
+	text-align: center;
 }
 
 form{
