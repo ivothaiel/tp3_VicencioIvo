@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	 /* Agregar imagen de fondo */
+    background-image: url('https://img.freepik.com/fotos-premium/corredor-gente-joven-que-ejecuta-camino-corriente-parque-ciudad_41380-393.jpg?size=626&ext=jpg&ga=GA1.1.672697106.1715558400&semt=sph');
+    /* Establecer la imagen de fondo como fija para que no se desplace con el contenido */
+    background-attachment: fixed;
+    /* Centrar la imagen de fondo y hacerla cubrir todo el cuerpo */
+    background-position: center;
+    background-size: cover;
+    /* Fallback color en caso de que la imagen no se cargue */
+    background-color: #f0f0f0;
+	
+	
+}
+
+#encabezado {
+	background-color: darkgreen;
+	color:azure;
+	padding: 20px;
+	text-align: center;
+	
+}
+
+form{
+	margin: 20px auto;
+	padding: 20px;
+	width: 80%;
+	max-width: 600px;
+	background-color: cadetblue;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+input[type="checkbox"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.checkbox-label {
+    display: block;
+    margin-top: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 16px;
+}
+
+.checkbox-label {
+    display: block;
+}
+
+.checkbox-label input {
+    margin-right: 5px;
+}
